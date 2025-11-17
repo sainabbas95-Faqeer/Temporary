@@ -9,19 +9,34 @@ st.set_page_config(
     layout="wide"
 )
 
-# Load data from CSV files
+# Load data from CSV files with multiple encoding fallbacks
+@st.cache_data
+def load_csv_with_fallback(filepath):
+    """Load CSV with multiple encoding fallbacks"""
+    encodings = ['utf-8', 'latin1', 'cp1252', 'iso-8859-1']
+    for encoding in encodings:
+        try:
+            return pd.read_csv(filepath, encoding=encoding)
+        except UnicodeDecodeError:
+            continue
+        except Exception as e:
+            st.warning(f"Error with {filepath} using {encoding}: {e}")
+            continue
+    st.error(f"Failed to load {filepath} with all attempted encodings")
+    return None
+
 @st.cache_data
 def load_data():
     try:
-        # Load all CSV files
-        db_data = pd.read_csv('DB.csv', encoding='utf-8')
-        dse_data = pd.read_csv('DSE.csv', encoding='utf-8')
-        locations_data = pd.read_csv('Locations.csv', encoding='utf-8')
-        rectifier_data = pd.read_csv('Rectifier.csv', encoding='utf-8')
-        spd_data = pd.read_csv('SPD.csv', encoding='utf-8')
-        events_data = pd.read_csv('events.csv', encoding='utf-8')
-        tenant_data = pd.read_csv('tenant.csv', encoding='utf-8')
-        dc_cts_data = pd.read_csv('DC CTs and SPDs.csv', encoding='utf-8')
+        # Load all CSV files with encoding fallback
+        db_data = load_csv_with_fallback('DB.csv')
+        dse_data = load_csv_with_fallback('DSE.csv')
+        locations_data = load_csv_with_fallback('Locations.csv')
+        rectifier_data = load_csv_with_fallback('Rectifier.csv')
+        spd_data = load_csv_with_fallback('SPD.csv')
+        events_data = load_csv_with_fallback('events.csv')
+        tenant_data = load_csv_with_fallback('tenant.csv')
+        dc_cts_data = load_csv_with_fallback('DC CTs and SPDs.csv')
         
         return {
             'db': db_data,
@@ -161,6 +176,7 @@ st.markdown("""
         align-items: center;
         color: white;
         text-decoration: none;
+        font-weight: bold;  /* Make text bold */
     }
 
     .interactive-button:hover {
@@ -179,12 +195,16 @@ st.markdown("""
         font-size: 1rem;
         font-weight: 700;
         margin-bottom: 10px;
+        color: white;  /* Ensure white color */
+        font-weight: bold;  /* Make text bold */
     }
 
     .button-description {
         font-size: 0.8rem;
         opacity: 0.9;
         margin-bottom: 12px;
+        color: white;  /* Make description text white */
+        font-weight: bold;  /* Make text bold */
     }
 
     .construction-badge {
@@ -196,6 +216,7 @@ st.markdown("""
         font-size: 0.65rem;
         font-weight: bold;
         border: 1px solid gold;
+        color: white;  /* Make construction badge text white */
     }
 
     /* Floating animation */
@@ -337,7 +358,6 @@ st.markdown("""
 
 # Current time display
 current_time_placeholder = st.empty()
-current_time_placeholder.markdown(f'<div class="current-time" id="currentTime">{get_current_datetime()}</div>', unsafe_allow_html=True)
 
 # Welcome header
 st.markdown("""
@@ -471,13 +491,5 @@ st.markdown("""
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 """, unsafe_allow_html=True)
 
-# Update time every second
-def update_time():
-    while True:
-        time.sleep(1)
-        current_time_placeholder.markdown(f'<div class="current-time" id="currentTime">{get_current_datetime()}</div>', unsafe_allow_html=True)
-
-# Run the time update in a separate thread
-import threading
-time_thread = threading.Thread(target=update_time, daemon=True)
-time_thread.start()
+# Update time display
+current_time_placeholder.markdown(f'<div class="current-time" id="currentTime">{get_current_datetime()}</div>', unsafe_allow_html=True)
