@@ -376,7 +376,7 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.markdown("""
-    <a href="#" class="interactive-button button-1" onclick="alert('RMS data base will be available soon!')">
+    <a href="rms_database" target="_self" class="interactive-button button-1">
         <div class="button-icon">
             <i class="fas fa-database"></i>
         </div>
