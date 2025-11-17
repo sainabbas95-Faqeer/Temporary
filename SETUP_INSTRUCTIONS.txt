@@ -1,0 +1,68 @@
+RMS OFFLINE DEVICES DASHBOARD - SETUP INSTRUCTIONS
+==================================================
+
+Thank you for using the RMS Offline Devices Dashboard! This dashboard provides 3D, colorful, highly interactive visualizations for your Remote Monitoring System offline devices.
+
+FILES INCLUDED:
+==============
+1. DB.csv - Your data file (already provided)
+2. dashboard_fixed.py - Main dashboard application (FIXED VERSION)
+3. rms_dashboard.py - Original dashboard application (has issues)
+4. simple_rms_dashboard.py - Alternative dashboard with error handling
+5. requirements.txt - List of required Python packages
+6. install_packages.bat - Windows batch file to install packages
+7. run_dashboard.bat - Windows batch file to run the dashboard
+8. README.md - Detailed documentation
+
+SETUP INSTRUCTIONS:
+==================
+
+STEP 1: Install Required Packages
+---------------------------------
+Option A (Recommended for Windows):
+- Double-click on "install_packages.bat" to automatically install all required packages
+
+Option B (Manual installation):
+- Open a terminal/command prompt
+- Run: pip install pandas plotly dash dash-bootstrap-components numpy
+
+STEP 2: Run the Dashboard
+-------------------------
+Option A (Recommended for Windows):
+- Double-click on "run_dashboard.bat" to start the dashboard
+
+Option B (Manual execution):
+- Open a terminal/command prompt
+- Navigate to this directory
+- Run: python dashboard_fixed.py
+
+STEP 3: Access the Dashboard
+----------------------------
+- Open your web browser (Chrome, Firefox, Edge, etc.)
+- Go to: http://localhost:8050
+
+DASHBOARD FEATURES:
+===================
+1. Interactive 3D visualization of devices by days offline, brand, and region
+2. Real-time filtering by region, device brand, and aging category
+3. Key Performance Indicators:
+   - Total Devices
+   - Average Days Offline
+   - Most Common Issue
+   - Critical Devices (>100 Days)
+4. Multiple chart types:
+   - 3D Scatter Plot
+   - Pie Charts
+   - Bar Graphs
+   - Histograms
+5. Responsive, colorful design that works on all devices
+
+TROUBLESHOOTING:
+================
+1. If you get "ModuleNotFoundError" messages, you need to install the required packages first
+2. Make sure DB.csv is in the same directory as the script
+3. Ensure you're using Python 3.7 or higher
+4. Check terminal output for any error messages
+5. If the original rms_dashboard.py doesn't work, use dashboard_fixed.py instead
+
+For more detailed information, please refer to the README.md file.
