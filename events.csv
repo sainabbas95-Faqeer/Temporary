@@ -1,0 +1,254 @@
+Site Id,Sub Region,Region,Beginning,Days Passed,Aging,Alarm,ES POC,SMS POC,History | Issue,Summarize,Domain
+ES2-TPW-04107,Ranipur,Sukkur,8-Aug-25,88,31 - 100 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-BRC-02051,Nausheroferoz,Sukkur,24-Sep-25,41,31 - 100 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-MRP-04998,Ranipur,Sukkur,7-Oct-25,28,11 - 30 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUK-03784,Sukkur,Sukkur,9-Oct-25,26,11 - 30 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01534,Sukkur,Sukkur,15-Oct-25,20,11 - 30 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-QBR-01693,Qambar,Larkana,15-Oct-25,20,11 - 30 Days,Rectifier Fan,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-LKN-01965,Larkana - 1,Larkana,20-Oct-25,15,11 - 30 Days,Rectifier Fan,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SBP-01691,Dera Allahyar,Jacob Abad,25-Oct-25,10,01 - 10 Days,Rectifier Fan,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KRP-06076,Sukkur,Sukkur,28-Oct-25,7,01 - 10 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SPR-04074,Shikarpur,Jacob Abad,28-Oct-25,7,01 - 10 Days,Rectifier Fan,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KRP-01770,Ranipur,Sukkur,29-Oct-25,7,01 - 10 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04673,ShahdadKot,Larkana,29-Oct-25,6,01 - 10 Days,Rectifier Fan,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04664,Larkana - 2,Larkana,1-Nov-25,3,01 - 10 Days,Rectifier Fan,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-NSD-05545,Dera Allahyar,Jacob Abad,2-Nov-25,2,01 - 10 Days,Rectifier Fan,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-JAF-05616,Dera Allahyar,Jacob Abad,2-Nov-25,2,01 - 10 Days,Rectifier Fan,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01697,Ghotki,Sukkur,2-Nov-25,2,01 - 10 Days,Rectifier Fan,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04677,ShahdadKot,Larkana,3-Nov-25,2,01 - 10 Days,Rectifier Fan,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04666,ShahdadKot,Larkana,3-Nov-25,2,01 - 10 Days,Rectifier Fan,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUI-02705,Sui,Jacob Abad,2-Jul-22,1221,180+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SUI-02178,Sui,Jacob Abad,17-Jun-23,871,180+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SDK-07210,ShahdadKot,Larkana,6-Nov-23,729,180+ Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SDK-06731,ShahdadKot,Larkana,2-Jan-24,673,180+ Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01534,Sukkur,Sukkur,27-Feb-24,616,180+ Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SBP-02076,Dera Allahyar,Jacob Abad,13-Jun-24,509,180+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05540,Larkana - 2,Larkana,20-Nov-24,349,180+ Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04682,Qambar,Larkana,22-Nov-24,348,180+ Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SPR-03563,Shikarpur,Jacob Abad,19-Dec-24,321,180+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KKO-05047,Sui,Jacob Abad,28-Dec-24,311,180+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SUI-06938,Sui,Jacob Abad,1-Jan-25,307,180+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-JMG-04568,Dera Allahyar,Jacob Abad,6-May-25,182,180+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05706,Larkana - 2,Larkana,28-May-25,161,100+ Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04661,Ranipur,Sukkur,20-Jul-25,108,100+ Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-DBT-04763,Sui,Jacob Abad,22-Jul-25,105,100+ Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SDK-03033,ShahdadKot,Larkana,13-Aug-25,83,31 - 100 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-WRH-02280,Qambar,Larkana,20-Aug-25,76,31 - 100 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04658,Sukkur,Sukkur,27-Aug-25,69,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-JCA-02091,Jacobabad,Jacob Abad,30-Aug-25,67,31 - 100 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05539,Qambar,Larkana,2-Sep-25,63,31 - 100 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SDK-01850,ShahdadKot,Larkana,3-Sep-25,63,31 - 100 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SDH-02054,Ranipur,Sukkur,8-Sep-25,57,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-GMT-09746,Ranipur,Sukkur,9-Sep-25,56,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-LKN-07446,Larkana - 1,Larkana,13-Sep-25,52,31 - 100 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01523,Sukkur,Sukkur,22-Sep-25,43,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SDQ-06496,Sadiq Abad,Sukkur,24-Sep-25,42,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-RHR-02155,Sukkur,Sukkur,24-Sep-25,41,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01536,Sukkur,Sukkur,1-Oct-25,34,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUI-06943,Sui,Jacob Abad,1-Oct-25,34,31 - 100 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KRP-05418,Sukkur,Sukkur,1-Oct-25,34,31 - 100 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04666,ShahdadKot,Larkana,3-Oct-25,32,31 - 100 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04673,ShahdadKot,Larkana,6-Oct-25,30,11 - 30 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-KRP-01770,Ranipur,Sukkur,6-Oct-25,30,11 - 30 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUI-06944,Sui,Jacob Abad,6-Oct-25,29,11 - 30 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SDK-03632,ShahdadKot,Larkana,6-Oct-25,29,11 - 30 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-GKI-06099,Ghotki,Sukkur,7-Oct-25,28,11 - 30 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KRP-04084,Sukkur,Sukkur,8-Oct-25,27,11 - 30 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-DBG-05666,Sui,Jacob Abad,8-Oct-25,27,11 - 30 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-RYK-02171,Sadiq Abad,Sukkur,9-Oct-25,26,11 - 30 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05707,Larkana - 1,Larkana,13-Oct-25,22,11 - 30 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04671,ShahdadKot,Larkana,13-Oct-25,22,11 - 30 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-GDK-01675,Nausheroferoz,Sukkur,17-Oct-25,19,11 - 30 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-GKI-04329,Sukkur,Sukkur,17-Oct-25,18,11 - 30 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04664,Larkana - 2,Larkana,19-Oct-25,16,11 - 30 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-NSD-05617,Dera Allahyar,Jacob Abad,19-Oct-25,16,11 - 30 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SCD-01366,Jacobabad,Jacob Abad,20-Oct-25,15,11 - 30 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SPR-04074,Shikarpur,Jacob Abad,24-Oct-25,12,11 - 30 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-09842,Larkana - 1,Larkana,24-Oct-25,11,11 - 30 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SPR-04963,Shikarpur,Jacob Abad,25-Oct-25,11,11 - 30 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-QBR-00579,Qambar,Larkana,25-Oct-25,10,01 - 10 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-KDJ-06697,Ranipur,Sukkur,28-Oct-25,8,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-JCA-04872,Kandhkot,Jacob Abad,28-Oct-25,7,01 - 10 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKI-01080,Shikarpur,Jacob Abad,28-Oct-25,7,01 - 10 Days,Rectifier | CSU,Mohsin Ali,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KRP-00949,Sukkur,Sukkur,28-Oct-25,7,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-GMT-05066,Ranipur,Sukkur,28-Oct-25,7,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04679,Kandiaro,Sukkur,28-Oct-25,7,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04687,Qambar,Larkana,29-Oct-25,6,01 - 10 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-JAF-05524,Dera Allahyar,Jacob Abad,31-Oct-25,5,01 - 10 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04689,Qambar,Larkana,31-Oct-25,4,01 - 10 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SDK-03034,ShahdadKot,Larkana,31-Oct-25,4,01 - 10 Days,Rectifier | CSU,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01527,Sukkur,Sukkur,1-Nov-25,4,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KKO-07543,Kandhkot,Jacob Abad,1-Nov-25,3,01 - 10 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-NSF-08612,Kandiaro,Sukkur,2-Nov-25,3,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SDQ-01908,Sadiq Abad,Sukkur,2-Nov-25,3,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SPR-05620,Shikarpur,Jacob Abad,2-Nov-25,3,01 - 10 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-DAY-01942,Dera Allahyar,Jacob Abad,2-Nov-25,2,01 - 10 Days,Rectifier | CSU,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KDJ-02557,Sukkur,Sukkur,3-Nov-25,2,01 - 10 Days,Rectifier | CSU,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUI-02705,Sui,Jacob Abad,2-Jul-22,1221,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-JCA-05614,Jacobabad,Jacob Abad,7-Jul-22,1217,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-GKI-04330,Sukkur,Sukkur,26-Jul-22,1197,180+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUI-02178,Sui,Jacob Abad,17-Aug-22,1176,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KKO-05047,Sui,Jacob Abad,24-Oct-22,1107,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-DBT-04763,Sui,Jacob Abad,25-Jan-23,1014,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04666,ShahdadKot,Larkana,8-Feb-23,1001,180+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-GKI-04334,Nausheroferoz,Sukkur,17-Feb-23,991,180+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04660,Larkana - 2,Larkana,24-Feb-23,985,180+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-GKI-06431,Ghotki,Sukkur,28-Mar-23,953,180+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04655,ShahdadKot,Larkana,19-Jul-23,839,180+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUI-06943,Sui,Jacob Abad,22-Aug-23,805,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05712,Larkana - 1,Larkana,19-Sep-23,777,180+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-DBG-05666,Sui,Jacob Abad,14-Oct-23,753,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-06089,Larkana - 1,Larkana,9-Dec-23,696,180+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUI-06944,Sui,Jacob Abad,27-Dec-23,678,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SUI-06938,Sui,Jacob Abad,20-Apr-24,563,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-GDK-01675,Nausheroferoz,Sukkur,10-Jul-24,482,180+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KKO-08745,Kandhkot,Jacob Abad,24-Oct-24,376,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-DAY-01942,Dera Allahyar,Jacob Abad,28-Oct-24,372,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-GKI-02117,Ghotki,Sukkur,11-Jan-25,297,180+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-DRK-07920,Ghotki,Sukkur,31-Jan-25,278,180+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05785,Larkana - 2,Larkana,7-Feb-25,270,180+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-JCA-02065,Jacobabad,Jacob Abad,13-Feb-25,264,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04668,ShahdadKot,Larkana,23-Feb-25,255,180+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-JCA-07912,Jacobabad,Jacob Abad,14-Mar-25,235,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04679,Kandiaro,Sukkur,23-Mar-25,226,180+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-JCA-02091,Jacobabad,Jacob Abad,11-Apr-25,207,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-JCA-04873,Kandhkot,Jacob Abad,2-May-25,187,180+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05706,Larkana - 2,Larkana,27-May-25,162,100+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-MPM-03273,Ghotki,Sukkur,30-May-25,158,100+ Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SPR-05559,Jacobabad,Jacob Abad,17-Jun-25,141,100+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-09842,Larkana - 1,Larkana,1-Jul-25,126,100+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SPR-08288,Shikarpur,Jacob Abad,3-Jul-25,124,100+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-QBR-08936,ShahdadKot,Larkana,12-Jul-25,116,100+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05713,Larkana - 2,Larkana,21-Jul-25,106,100+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SDK-04355,ShahdadKot,Larkana,22-Jul-25,105,100+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SDK-06731,ShahdadKot,Larkana,22-Jul-25,105,100+ Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-DMJ-09575,Dera Allahyar,Jacob Abad,23-Jul-25,104,100+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-NSD-05617,Dera Allahyar,Jacob Abad,23-Jul-25,104,100+ Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-UTM-09579,Dera Allahyar,Jacob Abad,31-Jul-25,96,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SBP-02076,Dera Allahyar,Jacob Abad,1-Aug-25,96,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SPR-07447,Shikarpur,Jacob Abad,1-Aug-25,96,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SPR-07910,Shikarpur,Jacob Abad,1-Aug-25,95,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SPR-05620,Shikarpur,Jacob Abad,1-Aug-25,95,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SPR-04963,Shikarpur,Jacob Abad,1-Aug-25,95,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SDK-01850,ShahdadKot,Larkana,2-Aug-25,94,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-KSH-03811,Kandhkot,Jacob Abad,2-Aug-25,94,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KSH-04983,Kandhkot,Jacob Abad,4-Aug-25,92,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-JCA-04872,Kandhkot,Jacob Abad,9-Aug-25,88,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-04740,Qambar,Larkana,14-Aug-25,82,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-GMT-09199,Ranipur,Sukkur,16-Aug-25,80,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-LKN-01092,Larkana - 1,Larkana,17-Aug-25,79,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-LKI-01080,Shikarpur,Jacob Abad,18-Aug-25,78,31 - 100 Days,Deep Sea,Mohsin Ali,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-NSF-08671,Nausheroferoz,Sukkur,21-Aug-25,75,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04658,Sukkur,Sukkur,27-Aug-25,69,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-GMT-09746,Ranipur,Sukkur,31-Aug-25,66,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SBP-01691,Dera Allahyar,Jacob Abad,1-Sep-25,65,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05539,Qambar,Larkana,2-Sep-25,63,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-LKN-05707,Larkana - 1,Larkana,3-Sep-25,62,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-LKN-03833,Qambar,Larkana,5-Sep-25,60,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-MPM-05115,Ghotki,Sukkur,6-Sep-25,59,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KRP-06076,Sukkur,Sukkur,9-Sep-25,56,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SDK-07210,ShahdadKot,Larkana,12-Sep-25,53,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-LKN-07446,Larkana - 1,Larkana,13-Sep-25,52,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-BDA-03439,Larkana - 2,Larkana,14-Sep-25,52,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-KKO-07543,Kandhkot,Jacob Abad,17-Sep-25,49,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-GKI-04333,Ranipur,Sukkur,26-Sep-25,39,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04684,Qambar,Larkana,29-Sep-25,36,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-JCA-08489,Jacobabad,Jacob Abad,30-Sep-25,35,31 - 100 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-KRP-05418,Sukkur,Sukkur,1-Oct-25,35,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-LKN-09593,Larkana - 1,Larkana,1-Oct-25,34,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01534,Sukkur,Sukkur,2-Oct-25,33,31 - 100 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SDK-06737,ShahdadKot,Larkana,4-Oct-25,32,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-WRH-02280,Qambar,Larkana,4-Oct-25,31,31 - 100 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SDJ-03689,Sukkur,Sukkur,5-Oct-25,30,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04673,ShahdadKot,Larkana,6-Oct-25,30,11 - 30 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-JCA-05519,Kandhkot,Jacob Abad,7-Oct-25,28,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SDQ-01991,Sadiq Abad,Sukkur,9-Oct-25,26,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-NSD-05618,Dera Allahyar,Jacob Abad,11-Oct-25,24,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-DRK-07922,Ghotki,Sukkur,12-Oct-25,23,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-JCA-05520,Jacobabad,Jacob Abad,13-Oct-25,22,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-GUD-05899,Kandhkot,Jacob Abad,13-Oct-25,22,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04671,ShahdadKot,Larkana,13-Oct-25,22,11 - 30 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04672,ShahdadKot,Larkana,16-Oct-25,20,11 - 30 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-KDY-02266,Kandiaro,Sukkur,16-Oct-25,19,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-GKI-04329,Sukkur,Sukkur,17-Oct-25,18,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUK-03784,Sukkur,Sukkur,18-Oct-25,17,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04664,Larkana - 2,Larkana,19-Oct-25,16,11 - 30 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SPR-01960,Shikarpur,Jacob Abad,19-Oct-25,16,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+EUS-RYK-04013,Sadiq Abad,Sukkur,21-Oct-25,14,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-JCA-05615,Jacobabad,Jacob Abad,22-Oct-25,13,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-JCA-03121,Jacobabad,Jacob Abad,22-Oct-25,13,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-QBR-02747,Qambar,Larkana,23-Oct-25,13,11 - 30 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-GKI-06099,Ghotki,Sukkur,23-Oct-25,12,11 - 30 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SPR-04074,Shikarpur,Jacob Abad,24-Oct-25,12,11 - 30 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-NSF-08612,Kandiaro,Sukkur,31-Oct-25,4,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KRP-08764,Nausheroferoz,Sukkur,31-Oct-25,4,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KRP-05492,Ranipur,Sukkur,31-Oct-25,4,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KKO-06413,Kandhkot,Jacob Abad,31-Oct-25,4,01 - 10 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-JMG-04568,Dera Allahyar,Jacob Abad,1-Nov-25,4,01 - 10 Days,Deep Sea,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-NSF-06079,Kandiaro,Sukkur,1-Nov-25,3,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-GKI-04327,Ghotki,Sukkur,1-Nov-25,3,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-GKI-06700,Ghotki,Sukkur,1-Nov-25,3,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04665,Larkana - 2,Larkana,2-Nov-25,3,01 - 10 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-NSF-03806,Kandiaro,Sukkur,2-Nov-25,3,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-GMT-03686,Ranipur,Sukkur,2-Nov-25,2,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUK-09749,Ranipur,Sukkur,3-Nov-25,2,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-LKN-09735,Larkana - 1,Larkana,3-Nov-25,2,01 - 10 Days,Deep Sea,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04661,Ranipur,Sukkur,3-Nov-25,2,01 - 10 Days,Deep Sea,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SUI-02705,Sui,Jacob Abad,2-Jul-22,1221,180+ Days,SPD,Abdul Waheed,Saif ul Islam,Data Blocked,Data Blocked,Enfra
+ES2-SUI-06944,Sui,Jacob Abad,11-Apr-24,572,180+ Days,SPD,Abdul Waheed,Saif ul Islam,Data Blocked,Data Blocked,Enfra
+ES2-SUI-06943,Sui,Jacob Abad,29-May-25,159,100+ Days,SPD,Abdul Waheed,Saif ul Islam,Data Blocked,Data Blocked,Enfra
+ES2-SUK-04313,Sukkur,Sukkur,13-Sep-25,53,11 - 30 Days,SPD,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KKO-06413,Kandhkot,Jacob Abad,6-Oct-25,29,11 - 30 Days,SPD,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SUK-09788,Sukkur,Sukkur,8-Oct-25,27,11 - 30 Days,SPD,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-JCA-04873,Kandhkot,Jacob Abad,16-Oct-25,20,11 - 30 Days,SPD,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SUK-05431,Sukkur,Sukkur,25-Oct-25,10,01 - 10 Days,SPD,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04668,ShahdadKot,Larkana,31-Oct-25,4,01 - 10 Days,SPD,Mohsin Ali,Nadeem Ali,Visit Required,Team Engaged,SMS LD
+ES2-SUI-02178,Sui,Jacob Abad,26-Aug-25,70,31 - 100 Days,RMS,Abdul Waheed,Saif ul Islam,RMS faulty submitted for R&R ,R&R,Enfra
+EUS-QSK-04658,Sukkur,Sukkur,28-Aug-25,69,31 - 100 Days,RMS,Shahid Ahmed,Abdul Rasool,Access Issue | Flood Water,Access Issue,Enfra
+ES2-LKN-05539,Qambar,Larkana,3-Sep-25,62,31 - 100 Days,RMS,Mohsin Ali,Nadeem Ali,Anttena Required,Hardware,Enfra
+ES2-LKN-05542,Qambar,Larkana,8-Sep-25,57,31 - 100 Days,RMS,Mohsin Ali,Nadeem Ali,Anttena Required,Hardware,Enfra
+ES2-GMT-09746,Ranipur,Sukkur,14-Sep-25,51,31 - 100 Days,RMS,Shahid Ahmed,Abdul Rasool,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-LKN-06828,Larkana - 1,Larkana,24-Sep-25,42,31 - 100 Days,RMS,Mohsin Ali,Nadeem Ali,SIM Data Finished,Data Refresh Req,Enfra
+ES2-SUK-02180,Sukkur,Sukkur,25-Sep-25,40,31 - 100 Days,RMS,Shahid Ahmed,Abdul Rasool,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-MHP-07527,Kandiaro,Sukkur,10-Oct-25,25,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-LKN-05707,Larkana - 1,Larkana,13-Oct-25,22,11 - 30 Days,RMS,Mohsin Ali,Nadeem Ali,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-LKN-07446,Larkana - 1,Larkana,13-Oct-25,22,11 - 30 Days,RMS,Mohsin Ali,Nadeem Ali,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-DBG-05666,Sui,Jacob Abad,14-Oct-25,22,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,Swapped to DAY1942 | 1942 in R&R,R&R,Enfra
+ES2-SUK-01534,Sukkur,Sukkur,16-Oct-25,20,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-KRP-05063,Sukkur,Sukkur,16-Oct-25,20,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,SIM Blocked,Data Refresh Req,Enfra
+ES2-SUI-06943,Sui,Jacob Abad,17-Oct-25,18,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,Swapped to NSD5618 | 5618 in R&R,R&R,Enfra
+ES2-LKN-05785,Larkana - 2,Larkana,18-Oct-25,18,11 - 30 Days,RMS,Mohsin Ali,Nadeem Ali,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-SUI-02705,Sui,Jacob Abad,20-Oct-25,15,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,Swapped to SBP2076 | 2076 in R&R,R&R,Enfra
+ES2-GDK-01675,Nausheroferoz,Sukkur,20-Oct-25,15,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-SPR-07447,Shikarpur,Jacob Abad,20-Oct-25,15,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-NSD-05617,Dera Allahyar,Jacob Abad,20-Oct-25,15,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,Swapped to NSD5545 | 5545 in R&R,R&R,Enfra
+EUS-GKI-04329,Sukkur,Sukkur,22-Oct-25,14,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,SIM Blocked | Online on POC SIM,Data Refresh Req,Enfra
+ES2-SDQ-04104,Sadiq Abad,Sukkur,22-Oct-25,13,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Area Data Blocked,Data Blocked,Enfra
+ES2-SPR-05559,Jacobabad,Jacob Abad,23-Oct-25,12,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,SIM Data Finished,Data Refresh Req,Enfra
+ES2-QBR-00579,Qambar,Larkana,25-Oct-25,10,11 - 30 Days,RMS,Mohsin Ali,Nadeem Ali,SIM Data Finished,Data Refresh Req,Enfra
+ES2-SUI-06944,Sui,Jacob Abad,26-Oct-25,9,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,Swapped to SPR4963 | 4963 to SBP1690 | 1690 in R&R,R&R,Enfra
+ES2-SUK-01533,Sukkur,Sukkur,27-Oct-25,8,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-GKI-06431,Ghotki,Sukkur,28-Oct-25,8,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SPR-06153,Sukkur,Sukkur,28-Oct-25,8,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-UBA-06364,Ghotki,Sukkur,28-Oct-25,8,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KRP-03807,Sukkur,Sukkur,28-Oct-25,8,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-SPR-04074,Shikarpur,Jacob Abad,28-Oct-25,7,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-KKO-05047,Sui,Jacob Abad,28-Oct-25,7,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-SUI-06938,Sui,Jacob Abad,28-Oct-25,7,11 - 30 Days,RMS,Abdul Waheed,Saif ul Islam,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-SUK-05431,Sukkur,Sukkur,29-Oct-25,7,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KDJ-06697,Ranipur,Sukkur,29-Oct-25,7,11 - 30 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KDY-02266,Kandiaro,Sukkur,29-Oct-25,6,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04673,ShahdadKot,Larkana,29-Oct-25,6,01 - 10 Days,RMS,Mohsin Ali,Nadeem Ali,RMS faulty submitted for R&R ,R&R,Enfra
+EUS-GKI-04333,Ranipur,Sukkur,30-Oct-25,5,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,SIM Blocked | Online on POC SIM,Data Refresh Req,Enfra
+ES2-LKN-09557,Larkana - 1,Larkana,30-Oct-25,5,01 - 10 Days,RMS,Mohsin Ali,Nadeem Ali,SIM Data Finished,Data Refresh Req,Enfra
+ES2-KRP-05418,Sukkur,Sukkur,31-Oct-25,4,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,RMS faulty submitted for R&R ,R&R,Enfra
+EUS-QSK-04671,ShahdadKot,Larkana,31-Oct-25,4,01 - 10 Days,RMS,Mohsin Ali,Nadeem Ali,RMS faulty submitted for R&R ,R&R,Enfra
+ES2-KKO-06413,Kandhkot,Jacob Abad,1-Nov-25,4,01 - 10 Days,RMS,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SUK-01527,Sukkur,Sukkur,1-Nov-25,4,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-DBT-04763,Sui,Jacob Abad,1-Nov-25,3,01 - 10 Days,RMS,Abdul Waheed,Saif ul Islam,ECM Swapped to KSH3811 | 3811 ECM in R&R,R&R,Enfra
+ES2-GUD-05899,Kandhkot,Jacob Abad,2-Nov-25,3,01 - 10 Days,RMS,Abdul Waheed,Saif ul Islam,Visit Required,Team Engaged,SMS LD
+ES2-SDQ-06496,Sadiq Abad,Sukkur,2-Nov-25,3,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-QSK-04666,ShahdadKot,Larkana,3-Nov-25,2,01 - 10 Days,RMS,Mohsin Ali,Nadeem Ali,SIM Blocked,Data Refresh Req,Enfra
+ES2-KRP-03278,Sukkur,Sukkur,4-Nov-25,1,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+ES2-KMB-01680,Sukkur,Sukkur,4-Nov-25,1,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD
+EUS-GKI-04337,Ranipur,Sukkur,4-Nov-25,1,01 - 10 Days,RMS,Shahid Ahmed,Abdul Rasool,Visit Required,Team Engaged,SMS LD

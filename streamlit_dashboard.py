@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from datetime import datetime
 import time
 
@@ -7,6 +8,44 @@ st.set_page_config(
     page_title="Welcome to RMS Interactive Dashboard",
     layout="wide"
 )
+
+# Load data from CSV files
+@st.cache_data
+def load_data():
+    try:
+        # Load all CSV files
+        db_data = pd.read_csv('DB.csv', encoding='utf-8')
+        dse_data = pd.read_csv('DSE.csv', encoding='utf-8')
+        locations_data = pd.read_csv('Locations.csv', encoding='utf-8')
+        rectifier_data = pd.read_csv('Rectifier.csv', encoding='utf-8')
+        spd_data = pd.read_csv('SPD.csv', encoding='utf-8')
+        events_data = pd.read_csv('events.csv', encoding='utf-8')
+        tenant_data = pd.read_csv('tenant.csv', encoding='utf-8')
+        dc_cts_data = pd.read_csv('DC CTs and SPDs.csv', encoding='utf-8')
+        
+        return {
+            'db': db_data,
+            'dse': dse_data,
+            'locations': locations_data,
+            'rectifier': rectifier_data,
+            'spd': spd_data,
+            'events': events_data,
+            'tenant': tenant_data,
+            'dc_cts': dc_cts_data
+        }
+    except Exception as e:
+        st.error(f"Error loading data: {e}")
+        return None
+
+# Function to get current date and time in required format
+def get_current_datetime():
+    now = datetime.now()
+    day = now.strftime("%A")[:3].upper()  # Get day abbreviation (MON, TUE, etc.)
+    date_time = now.strftime("| %d-%b-%y | %H:%M:%S")
+    return f"{day} {date_time}"
+
+# Load the data
+data = load_data()
 
 # Custom CSS for the dashboard
 st.markdown("""
@@ -288,11 +327,17 @@ st.markdown("""
             font-size: 0.6rem;
         }
     }
+    
+    /* Fix for Streamlit's column layout */
+    .stMarkdown div[data-testid="stMarkdownContainer"] {
+        width: 100%;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 # Current time display
-st.markdown('<div class="current-time" id="currentTime">Loading time...</div>', unsafe_allow_html=True)
+current_time_placeholder = st.empty()
+current_time_placeholder.markdown(f'<div class="current-time" id="currentTime">{get_current_datetime()}</div>', unsafe_allow_html=True)
 
 # Welcome header
 st.markdown("""
@@ -303,92 +348,104 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Interactive buttons grid
-st.markdown("""
-<div class="buttons-grid">
-    <div>
-        <a href="#" class="interactive-button button-1" onclick="alert('RMS data base will be available soon!')">
-            <div class="button-icon">
-                <i class="fas fa-database"></i>
-            </div>
-            <div class="button-text">RMS data base</div>
-            <div class="button-description">Access the main Remote Monitoring System database</div>
-        </a>
-    </div>
+# Create buttons using Streamlit columns for better compatibility
+st.markdown("### Available Databases", unsafe_allow_html=True)
 
-    <div>
-        <a href="#" class="interactive-button button-2" onclick="alert('All Active Alarms Database will be available soon!')">
-            <div class="button-icon">
-                <i class="fas fa-bell"></i>
-            </div>
-            <div class="button-text">All Active Alarms Database</div>
-            <div class="button-description">View all current active system alarms</div>
-        </a>
-    </div>
+# Create a grid using Streamlit columns
+col1, col2, col3, col4 = st.columns(4)
 
-    <div>
-        <a href="#" class="interactive-button button-3" onclick="alert('🚧 Gallery is currently under construction.\\n\\nData for this module will be available soon.\\nPlease check back later.')">
-            <div class="button-icon">
-                <i class="fas fa-images"></i>
-            </div>
-            <div class="button-text">Gallery</div>
-            <div class="button-description">View system images and diagrams</div>
-            <div class="construction-badge">Under Construction</div>
-        </a>
-    </div>
-    
-    <div>
-        <a href="#" class="interactive-button button-4" onclick="alert('RMS Brands Site wise will be available soon!')">
-            <div class="button-icon">
-                <i class="fas fa-map-marker-alt"></i>
-            </div>
-            <div class="button-text">RMS Brands Site wise</div>
-            <div class="button-description">View RMS brands organized by site locations</div>
-        </a>
-    </div>
-    
-    <div>
-        <a href="#" class="interactive-button button-5" onclick="alert('🚧 Site SIMs is currently under construction.\\n\\nData for this module will be available soon.\\nPlease check back later.')">
-            <div class="button-icon">
-                <i class="fas fa-sim-card"></i>
-            </div>
-            <div class="button-text">Site SIMs</div>
-            <div class="button-description">Manage SIM cards assigned to different sites</div>
-            <div class="construction-badge">Under Construction</div>
-        </a>
-    </div>
-    
-    <div>
-        <a href="#" class="interactive-button button-6" onclick="alert('Tasks / Activities will be available soon!')">
-            <div class="button-icon">
-                <i class="fas fa-tasks"></i>
-            </div>
-            <div class="button-text">Tasks / Activities</div>
-            <div class="button-description">Manage and track all system tasks and activities</div>
-        </a>
-    </div>
-    
-    <div>
-        <a href="#" class="interactive-button button-7" onclick="alert('Mapping will be available soon!')">
-            <div class="button-icon">
-                <i class="fas fa-map-marked-alt"></i>
-            </div>
-            <div class="button-text">Mapping</div>
-            <div class="button-description">View site locations on interactive map</div>
-        </a>
-    </div>
-    
-    <div>
-        <a href="#" class="interactive-button button-8" onclick="alert('Tenants Information will be available soon!')">
-            <div class="button-icon">
-                <i class="fas fa-mobile-alt"></i>
-            </div>
-            <div class="button-text">Tenants Information</div>
-            <div class="button-description">View mobile operators mapping data</div>
-        </a>
-    </div>
-</div>
-""", unsafe_allow_html=True)
+with col1:
+    st.markdown("""
+    <a href="#" class="interactive-button button-1" onclick="alert('RMS data base will be available soon!')">
+        <div class="button-icon">
+            <i class="fas fa-database"></i>
+        </div>
+        <div class="button-text">RMS data base</div>
+        <div class="button-description">Access the main Remote Monitoring System database</div>
+    </a>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+    <a href="#" class="interactive-button button-2" onclick="alert('All Active Alarms Database will be available soon!')">
+        <div class="button-icon">
+            <i class="fas fa-bell"></i>
+        </div>
+        <div class="button-text">All Active Alarms Database</div>
+        <div class="button-description">View all current active system alarms</div>
+    </a>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown("""
+    <a href="#" class="interactive-button button-3" onclick="alert('🚧 Gallery is currently under construction.\\n\\nData for this module will be available soon.\\nPlease check back later.')">
+        <div class="button-icon">
+            <i class="fas fa-images"></i>
+        </div>
+        <div class="button-text">Gallery</div>
+        <div class="button-description">View system images and diagrams</div>
+        <div class="construction-badge">Under Construction</div>
+    </a>
+    """, unsafe_allow_html=True)
+
+with col4:
+    st.markdown("""
+    <a href="#" class="interactive-button button-4" onclick="alert('RMS Brands Site wise will be available soon!')">
+        <div class="button-icon">
+            <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="button-text">RMS Brands Site wise</div>
+        <div class="button-description">View RMS brands organized by site locations</div>
+    </a>
+    """, unsafe_allow_html=True)
+
+# Second row
+col5, col6, col7, col8 = st.columns(4)
+
+with col5:
+    st.markdown("""
+    <a href="#" class="interactive-button button-5" onclick="alert('🚧 Site SIMs is currently under construction.\\n\\nData for this module will be available soon.\\nPlease check back later.')">
+        <div class="button-icon">
+            <i class="fas fa-sim-card"></i>
+        </div>
+        <div class="button-text">Site SIMs</div>
+        <div class="button-description">Manage SIM cards assigned to different sites</div>
+        <div class="construction-badge">Under Construction</div>
+    </a>
+    """, unsafe_allow_html=True)
+
+with col6:
+    st.markdown("""
+    <a href="#" class="interactive-button button-6" onclick="alert('Tasks / Activities will be available soon!')">
+        <div class="button-icon">
+            <i class="fas fa-tasks"></i>
+        </div>
+        <div class="button-text">Tasks / Activities</div>
+        <div class="button-description">Manage and track all system tasks and activities</div>
+    </a>
+    """, unsafe_allow_html=True)
+
+with col7:
+    st.markdown("""
+    <a href="#" class="interactive-button button-7" onclick="alert('Mapping will be available soon!')">
+        <div class="button-icon">
+            <i class="fas fa-map-marked-alt"></i>
+        </div>
+        <div class="button-text">Mapping</div>
+        <div class="button-description">View site locations on interactive map</div>
+    </a>
+    """, unsafe_allow_html=True)
+
+with col8:
+    st.markdown("""
+    <a href="#" class="interactive-button button-8" onclick="alert('Tenants Information will be available soon!')">
+        <div class="button-icon">
+            <i class="fas fa-mobile-alt"></i>
+        </div>
+        <div class="button-text">Tenants Information</div>
+        <div class="button-description">View mobile operators mapping data</div>
+    </a>
+    """, unsafe_allow_html=True)
 
 # Under construction notice
 st.markdown("""
@@ -414,30 +471,13 @@ st.markdown("""
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 """, unsafe_allow_html=True)
 
-# JavaScript for time display and animations
-st.markdown("""
-<script>
-    // Update current time
-    function updateTime() {
-        const now = new Date();
-        let hours = now.getHours();
-        let minutes = now.getMinutes();
-        let seconds = now.getSeconds();
-        const ampm = hours >= 12 ? 'PM' : 'AM';
-        
-        hours = hours % 12;
-        hours = hours ? hours : 12; // 0 should be 12
-        minutes = minutes < 10 ? '0' + minutes : minutes;
-        seconds = seconds < 10 ? '0' + seconds : seconds;
-        
-        const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
-        const dateString = now.toDateString();
-        
-        document.getElementById('currentTime').innerHTML = `${dateString}<br>${timeString}`;
-    }
-    
-    // Update time immediately and then every second
-    updateTime();
-    setInterval(updateTime, 1000);
-</script>
-""", unsafe_allow_html=True)
+# Update time every second
+def update_time():
+    while True:
+        time.sleep(1)
+        current_time_placeholder.markdown(f'<div class="current-time" id="currentTime">{get_current_datetime()}</div>', unsafe_allow_html=True)
+
+# Run the time update in a separate thread
+import threading
+time_thread = threading.Thread(target=update_time, daemon=True)
+time_thread.start()
