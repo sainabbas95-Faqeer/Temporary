@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to RMS Interactive Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #1a2a6c);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            min-height: 100vh;
+            color: #fff;
+            overflow-x: hidden;
+            padding: 10px;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        /* Time display in top right corner */
+        .current-time {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 12px 20px;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: bold;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        /* Welcome header - moved up */
+        .welcome-header {
+            text-align: center;
+            padding: 30px 10px 20px 10px;
+            margin-bottom: 20px;
+        }
+
+        .welcome-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 12px;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+            /* Removed gradient coloring for better visibility */
+            color: white;
+            animation: colorShift 8s infinite alternate;
+        }
+
+        @keyframes colorShift {
+            0% { color: #ffffff; }
+            50% { color: #f0f0f0; }
+            100% { color: #e0e0e0; }
+        }
+
+        .welcome-header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto 15px;
+        }
+
+        /* SMS LD project text - moved below the subtitle */
+        .project-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.8);
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+            animation: float 4s ease-in-out infinite;
+            margin-top: 8px;
+            letter-spacing: 1px;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Interactive buttons grid - moved up and compacted */
+        .buttons-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: auto;
+            gap: 15px;
+            padding: 10px;
+            max-width: 1200px;
+            margin: 0 auto 20px;
+            justify-items: center;
+            align-items: center;
+        }
+
+        /* Highly interactive floating button - smaller and more compact */
+        .interactive-button {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+            animation: floating 3s ease-in-out infinite;
+            min-height: 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .interactive-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+        }
+
+        .button-1::before { background: linear-gradient(90deg, #ff8a00, #da1b60); }
+        .button-2::before { background: linear-gradient(90deg, #00c9ff, #92fe9d); }
+        .button-3::before { background: linear-gradient(90deg, #f857a6, #ff5858); }
+        .button-4::before { background: linear-gradient(90deg, #3a7bd5, #00d2ff); }
+        .button-5::before { background: linear-gradient(90deg, #56ab2f, #a8e063); }
+        .button-6::before { background: linear-gradient(90deg, #6a11cb, #2575fc); }
+        .button-7::before { background: linear-gradient(90deg, #ff416c, #ff4b2b); }
+        .button-8::before { background: linear-gradient(90deg, #8e2de2, #4a00e0); }
+        .button-9::before { background: linear-gradient(90deg, #2193b0, #6dd5ed); }
+        .button-10::before { background: linear-gradient(90deg, #ff5e62, #ff9966); }
+        .button-11::before { background: linear-gradient(90deg, #1e3c72, #2a5298); }
+        .button-12::before { background: linear-gradient(90deg, #8e44ad, #3498db); }
+
+        .interactive-button:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .button-icon {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+        }
+
+        .button-text {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .button-description {
+            font-size: 0.8rem;
+            opacity: 0.9;
+            margin-bottom: 12px;
+        }
+
+        .construction-badge {
+            display: inline-block;
+            background: rgba(255, 215, 0, 0.2);
+            color: gold;
+            padding: 2px 6px;
+            border-radius: 12px;
+            font-size: 0.65rem;
+            font-weight: bold;
+            border: 1px solid gold;
+        }
+
+        /* Floating animation */
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-6px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Staggered animation delays */
+        .button-1 { animation-delay: 0s; }
+        .button-2 { animation-delay: 0.1s; }
+        .button-3 { animation-delay: 0.2s; }
+        .button-4 { animation-delay: 0.3s; }
+        .button-5 { animation-delay: 0.4s; }
+        .button-6 { animation-delay: 0.5s; }
+        .button-7 { animation-delay: 0.6s; }
+        .button-8 { animation-delay: 0.7s; }
+        .button-9 { animation-delay: 0.8s; }
+        .button-10 { animation-delay: 0.9s; }
+        .button-11 { animation-delay: 1.0s; }
+        .button-12 { animation-delay: 1.1s; }
+
+        /* Under construction section - moved up */
+        .under-construction {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+
+        .under-construction h2 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+            color: gold;
+        }
+
+        .construction-icon {
+            font-size: 2.5rem;
+            color: gold;
+            margin-bottom: 12px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        /* Footer - moved up */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        /* Mobile responsiveness improvements */
+        @media (max-width: 1024px) {
+            .buttons-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* For larger screens, ensure two rows */
+        @media (min-width: 1025px) {
+            .buttons-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 5px;
+            }
+            
+            .container {
+                padding: 5px;
+            }
+            
+            .current-time {
+                font-size: 0.8rem;
+                padding: 8px 12px;
+                top: 10px;
+                right: 10px;
+            }
+            
+            .welcome-header {
+                padding: 20px 5px 15px 5px;
+                margin-bottom: 15px;
+            }
+            
+            .welcome-header h1 {
+                font-size: 2rem;
+                margin-bottom: 8px;
+            }
+            
+            .welcome-header p {
+                font-size: 0.9rem;
+                margin-bottom: 10px;
+            }
+            
+            .project-text {
+                font-size: 1rem;
+                margin-top: 6px;
+            }
+            
+            .buttons-grid {
+                gap: 12px;
+                padding: 8px;
+                margin-bottom: 15px;
+            }
+            
+            .interactive-button {
+                padding: 12px;
+                min-height: 110px;
+                border-radius: 10px;
+            }
+            
+            .button-icon {
+                font-size: 1.5rem;
+                margin-bottom: 8px;
+            }
+            
+            .button-text {
+                font-size: 0.9rem;
+                margin-bottom: 5px;
+            }
+            
+            .button-description {
+                font-size: 0.65rem;
+                margin-bottom: 6px;
+            }
+            
+            .construction-badge {
+                font-size: 0.6rem;
+                padding: 1px 5px;
+                border-radius: 10px;
+            }
+            
+            .under-construction {
+                padding: 15px;
+                margin: 15px auto;
+                max-width: 95%;
+            }
+            
+            .under-construction h2 {
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+            
+            .construction-icon {
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+            
+            .footer {
+                padding: 15px;
+                margin-top: 15px;
+                font-size: 0.7rem;
+            }
+        }
+        
+        /* Extra small devices */
+        @media (max-width: 480px) {
+            .buttons-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .welcome-header h1 {
+                font-size: 1.7rem;
+            }
+            
+            .welcome-header p {
+                font-size: 0.8rem;
+            }
+            
+            .project-text {
+                font-size: 0.9rem;
+            }
+            
+            .button-text {
+                font-size: 0.8rem;
+            }
+            
+            .button-description {
+                font-size: 0.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Current time display in top right corner -->
+        <div class="current-time" id="currentTime">
+            <!-- Time will be updated by JavaScript -->
+        </div>
+
+        <!-- Welcome header - moved up -->
+        <div class="welcome-header">
+            <h1>Welcome To The Interactive World</h1>
+            <p>Your Gateway To Comprehensive Data Management And Monitoring Systems</p>
+            <div class="project-text">SMS LD - A Project Of Engro Enfrashare</div>
+        </div>
+
+        <!-- Interactive buttons grid - moved up and compacted -->
+        <div class="buttons-grid">
+            <!-- First row -->
+            <div>
+                <!-- Button 01: RMS data base -->
+                <div class="interactive-button button-1" onclick="window.location.href='column_l_3d_chart.html'">
+                    <div class="button-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="button-text">RMS data base</div>
+                    <div class="button-description">Access the main Remote Monitoring System database</div>
+                </div>
+            </div>
+
+            <div>
+                <!-- Button 02: All Active Alarms Database -->
+                <div class="interactive-button button-2" onclick="window.location.href='all_active_alarms.html'">
+                    <div class="button-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="button-text">All Active Alarms Database</div>
+                    <div class="button-description">View all current active system alarms</div>
+                </div>
+            </div>
+
+            <div>
+                <!-- Button 03: Gallery -->
+                <div class="interactive-button button-3" onclick="showConstructionMessage('Gallery')">
+                    <div class="button-icon">
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <div class="button-text">Gallery</div>
+                    <div class="button-description">View system images and diagrams</div>
+                    <div class="construction-badge">Under Construction</div>
+                </div>
+            </div>
+            
+            <div>
+                <!-- Button 04: RMS Brands Site wise -->
+                <div class="interactive-button button-4" onclick="window.location.href='rms_brands.html'">
+                    <div class="button-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="button-text">RMS Brands Site wise</div>
+                    <div class="button-description">View RMS brands organized by site locations</div>
+                </div>
+            </div>
+            
+            <!-- Second row -->
+            <div>
+                <!-- Button 05: Site SIMs -->
+                <div class="interactive-button button-5" onclick="showConstructionMessage('Site SIMs')">
+                    <div class="button-icon">
+                        <i class="fas fa-sim-card"></i>
+                    </div>
+                    <div class="button-text">Site SIMs</div>
+                    <div class="button-description">Manage SIM cards assigned to different sites</div>
+                    <div class="construction-badge">Under Construction</div>
+                </div>
+            </div>
+            
+            <div>
+                <!-- Button 06: Tasks / Activities -->
+                <div class="interactive-button button-6" onclick="window.location.href='tasks_activities.html'">
+                    <div class="button-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="button-text">Tasks / Activities</div>
+                    <div class="button-description">Manage and track all system tasks and activities</div>
+                </div>
+            </div>
+            
+            <div>
+                <!-- Button 07: Mapping -->
+                <div class="interactive-button button-7" onclick="window.location.href='excel_google_map.html'">
+                    <div class="button-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="button-text">Mapping</div>
+                    <div class="button-description">View site locations on interactive map</div>
+                </div>
+            </div>
+            
+            <div>
+                <!-- Button 08: Tenants Information -->
+                <div class="interactive-button button-8" onclick="window.location.href='tenants_map.html'">
+                    <div class="button-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="button-text">Tenants Information</div>
+                    <div class="button-description">View mobile operators mapping data</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Under construction notice - moved up -->
+        <div class="under-construction">
+            <div class="construction-icon">
+                <i class="fas fa-hard-hat"></i>
+            </div>
+            <h2>Under Construction</h2>
+            <p>Additional database modules are currently being developed and will be available soon.</p>
+            <p>Please check back later for updates.</p>
+        </div>
+
+        <!-- Footer - moved up -->
+        <div class="footer">
+            <p>RMS Interactive Dashboard &copy; 2025 Abbas Enterprises</p>
+        </div>
+    </div>
+
+    <script>
+        // Update current time
+        function updateTime() {
+            const now = new Date();
+            let hours = now.getHours();
+            let minutes = now.getMinutes();
+            let seconds = now.getSeconds();
+            const ampm = hours >= 12 ? 'PM' : 'AM';
+            
+            hours = hours % 12;
+            hours = hours ? hours : 12; // 0 should be 12
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            
+            const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
+            const dateString = now.toDateString();
+            
+            document.getElementById('currentTime').innerHTML = `${dateString}<br>${timeString}`;
+        }
+        
+        // Update time immediately and then every second
+        updateTime();
+        setInterval(updateTime, 1000);
+        
+        // Show construction message
+        function showConstructionMessage(databaseName) {
+            alert(`🚧 ${databaseName} is currently under construction.\n\nData for this module will be available soon.\nPlease check back later.`);
+        }
+        
+        // Add interactive effects to buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.interactive-button');
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-8px) scale(1.02)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
