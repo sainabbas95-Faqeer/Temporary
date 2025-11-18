@@ -1,38 +1,58 @@
-# RMS Offline Summary Dashboard
+# RMS Dashboard
 
-This is a Streamlit dashboard for the RMS Offline Summary.
+## Setup Instructions
 
-## Files
+To run this dashboard properly, please ensure you have all required packages installed:
 
-- `streamlit_dashboard.py` - Main Streamlit application
-- `requirements.txt` - Python dependencies
-- `.streamlit/config.toml` - Streamlit configuration
+```bash
+pip install streamlit pandas plotly
+```
 
-## Deployment
+After installing the packages, run the dashboard with:
 
-### For Streamlit Cloud:
+```bash
+streamlit run streamlit_dashboard.py
+```
 
-1. Create a new app on Streamlit Cloud
-2. Point it to this repository
-3. Set the main file to `streamlit_dashboard.py`
-4. The requirements.txt file will be automatically detected
+If you're using a virtual environment, make sure it's activated before installing packages.
 
-### For local development:
+## Running the Dashboard
 
-1. Install the requirements:
-   ```
-   pip install -r requirements.txt
-   ```
+You can run the dashboard using one of these methods:
 
-2. Run the app:
-   ```
+1. **Direct method**:
+   ```bash
    streamlit run streamlit_dashboard.py
    ```
 
-## Features
+2. **Using the batch file**:
+   ```bash
+   run_streamlit.bat
+   ```
 
-- RMS OFFLINE SUMMARY header
-- Remote Monitoring System - Data Analysis Dashboard subheader
-- Comprehensive Data Management And Monitoring Systems subheader
-- SMS LD - A Project Of Engro Enfrashare footer
-- Current date and time display in format: DAY | DD-MMM-YY | HH:MM:SS
+3. **Install packages first, then run**:
+   ```bash
+   install_packages.bat
+   streamlit run streamlit_dashboard.py
+   ```
+
+## Troubleshooting
+
+If you encounter any "missing package" errors:
+
+1. Make sure all packages in `requirements.txt` are installed:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Install additional dependencies:
+   ```bash
+   pip install toml cachetools tornado
+   ```
+
+3. If problems persist, try upgrading pip first:
+   ```bash
+   python -m pip install --upgrade pip
+   ```
+
+The dashboard should be accessible at http://localhost:8501 after successful startup.

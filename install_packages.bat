@@ -26,11 +26,15 @@ echo Installing numpy...
 python -m pip install numpy
 echo.
 
+echo Installing additional Streamlit dependencies...
+python -m pip install toml cachetools tornado
+echo.
+
 echo Installation complete!
 echo.
 echo To run the dashboard, execute:
-echo python rms_dashboard.py
+echo streamlit run streamlit_dashboard.py
 echo.
-echo Then open your browser to http://localhost:8050
+echo Then open your browser to http://localhost:8501
 echo.
 pause
