@@ -208,6 +208,10 @@ with col1:
     </div>
     """, unsafe_allow_html=True)
     
+    # Add navigation button
+    if st.button("Open RMS Dashboard", key="rms_database"):
+        st.switch_page("pages/1_RMS_Database.py")
+    
 # Button 02: All Active Alarms Database
 with col2:
     st.markdown("""
